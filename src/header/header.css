@@ -1,0 +1,139 @@
+.main-header.fixed-header {
+    position: fixed;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.main-header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 99;
+    transition: all 300ms ease;
+}
+.main-header .main-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.main-header .nav-outer {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.main-header .outer-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-header .logo-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.main-menu {
+    position: static;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.main-menu .navigation {
+    position: static;
+    display: flex;
+    align-items: center;
+}
+
+ul, li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.main-menu .navigation > li {
+    position: relative;
+    margin-right: 40px;
+    padding: 20px 0;
+    transition: all 300ms ease;
+}
+
+ul, li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.main-header .outer-box .btn-box {
+    position: relative;
+    display: flex;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    font-size: 100%;
+}
+.main-header .outer-box .btn-box a {
+    margin-left: 20px;
+    min-width: 140px;
+}
+
+a:hover, a:focus, a:visited {
+    text-decoration: none;
+    outline: none;
+}
+.btn-style-one {
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    color: #ffffff;
+    background-color: #1967D2;
+    font-size: 15px;
+    line-height: 20px;
+    border-radius: 8px;
+    font-weight: 400;
+    padding: 18px 35px 15px 35px;
+}
+.theme-btn {
+    position: relative;
+    display: inline-flex;
+    transition: all 0.5s ease;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.mm-add-listing {
+    margin-top: 87px;
+    border: transparent;
+    display: none;
+}
+.main-menu .navigation > li.current > a, .main-menu .navigation > li.current > span {
+    color: #1967D2;
+}
+
+.main-menu .navigation > li > span, .main-menu .navigation > li > a {
+    position: relative;
+    display: block;
+    text-align: center;
+    opacity: 1;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #202124;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+b, strong {
+    font-weight: bolder;
+}
